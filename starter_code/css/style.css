@@ -50,7 +50,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-     background-color: #d3d3d3;
+     background-color: #FEFEFA;
      
 }
 
@@ -111,8 +111,37 @@ section {
   font-weight: 600;
   /*border: 5px solid green;*/
   background-color: #f0efef;
-  height: 800px;
+  height: 700px;
 }
+
+h3 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 125px;
+  padding-top: 100px;
+
+}
+
+p {
+  font-size: 28px;
+  font-weight: 300;
+  color: #606161;
+  margin-left: 130px;
+  margin-right: 420px;
+  margin-bottom: 35px;
+  padding-top: 25px;
+}
+
+ul li {
+  font-size: 28px;
+  font-weight: 300;
+  color: #606161;
+  margin-left: 250px;
+  margin-right: 450px;
+  padding-top: 15px;
+  list-style-type: disc;
+}
+
 footer {
 
 }
