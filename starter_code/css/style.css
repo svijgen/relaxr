@@ -67,7 +67,7 @@ body {
 }
 
 header {
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   /*border: 5px solid red;*/
   width: 1200px;
   height: 600px;
@@ -142,9 +142,78 @@ ul li {
   list-style-type: disc;
 }
 
-footer {
+section .sectiontwo {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  width: 1200px;
+  height: 390px;
+}
+
+.sectiontwo blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-top: 75px;
+}
+
+.sectiontwo span {
+  font-size: 36px;
+  font-weight: 600;
+  margin-left: 450px;
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+}
+
+section .sectionthree {
+  background-color: #f9e42e;
+  height: 150px;
+  width: 1200px;
+  margin-top: -315px;
+  padding-top: 50px;
+}
+
+section .button {
+  background-color: #033048;
+  height: 50px;
+  width: 350px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  
+}
+
+.sectionthree a {
+  color: white;
+  font-size: 24px;
+  font-weight: 800;
+  margin-left: 100px;
+  margin-right: 25px;
+  margin-top: 50px;
+  padding-top: -100px;
 
 }
+
+footer {
+  background-color: #121212;
+  width: 1200px;
+  height: 380px;
+  margin-top: -550px;
+}
+
+
+h4 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9e42e;
+  text-align: center;
+  padding top: 100px;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
