@@ -168,41 +168,35 @@ section .sectiontwo {
   text-align: center;
 }
 
-section .sectionthree {
+.sectionthree {
   background-color: #f9e42e;
   height: 150px;
   width: 1200px;
   margin-top: -315px;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 section .button {
   background-color: #033048;
-  height: 50px;
+  height: 70px;
   width: 350px;
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 50px;
-  
+  text-align: center;
 }
 
 .sectionthree a {
   color: white;
   font-size: 24px;
   font-weight: 800;
-  margin-left: 100px;
-  margin-right: 25px;
-  margin-top: 50px;
-  padding-top: -100px;
-
 }
 
 footer {
   background-color: #121212;
   width: 1200px;
   height: 380px;
-  margin-top: -550px;
+  padding-top: 60px;
 }
 
 
@@ -211,10 +205,21 @@ h4 {
   font-weight: 800;
   color: #f9e42e;
   text-align: center;
-  padding top: 100px;
+  padding top: 500px;
 }
 
+nav {
+  color: white;
+  margin-left: 550px;
+  font-size: 100px;
+}
 
+footer p {
+  color: white;
+  margin-left: 500px;
+  font-size: 18px;
+  font-weight: 600;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
