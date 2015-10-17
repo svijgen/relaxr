@@ -214,9 +214,14 @@ nav {
   font-size: 100px;
 }
 
+footer img {
+  margin-left: 400px;
+}
+
+
 footer p {
   color: white;
-  margin-left: 500px;
+  margin-left: 450;
   font-size: 18px;
   font-weight: 600;
 }

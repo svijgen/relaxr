@@ -79,9 +79,10 @@ header h1 {
   color: white;
   display: inline-block;
   margin-left: 75px;
-  font-size: 36px;
+  font-size: 38px;
   padding-top: 15px;
   padding-bottom: 15px;
+  font-weight: 600;
 
 }
 
@@ -98,6 +99,11 @@ nav a {
   font-size: 18px;
 }
 
+a:hover {
+  color: #f9e42e;
+  font-weight: 800;
+}
+
 #posts {
   width: 700px;
   float: left;
@@ -108,44 +114,48 @@ nav a {
   font-size: 28px;
   font-weight: 600;
   margin-right: 100px;
-  margin-left: 75px;
   padding-top: 50px;
   padding-bottom: 20px;
 }
 
-img {
-  margin-left: 75px;
+#posts img {
   width: 625px;
   height: auto;
 }
 
+article {
+  border-bottom: 1px solid black;
+  float:left;
+  margin-left: 75px;
+}
 
 article p {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
-  margin-left: 75px;
   padding-top: 20px;
   color: #606161;
+  line-height: 1.5;
 
 }
 
-p.article:first-child::first-letter {
-  font-weight: 700;
-  color: #606161;
-  font-size: 36px;
-  line-height: 0.8;
+.firstletter {
+  float: left;
+  font-size: 75px;
+  font-weight: 600;
+  line-height: 0.5;
+  margin: 25px 12px 20px 0px;
 }
+
 
 article a {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 600;
   float: right;
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 20px;
   text-decoration: none;
   
 }
-
 
 #sidebar {
   width: 240px;
@@ -153,29 +163,29 @@ article a {
 }
 
 #sidebar h3 {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 800;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 10px;
   color: #033048;
+  margin-top: 15px;
 }
 
 #sidebar li {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
   margin-left: 3px;
   color: #606161;
 }
 
 #sidebar p {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 300;
-  padding-top: 10px;
   color: #606161;
 }
 
 #sidebar a {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 600;
   text-decoration: none;
 }
@@ -183,13 +193,83 @@ article a {
   width: 240px;
   height: 500px;
   background-color: white;
+  margin-top: 25px;
+  text-align: center;
 }
 
-footer h3 {
-
+.areaforad h4 {
+  font-weight: 600;
+  font-size: 28px;
+  color: #033048;
+  padding-top: 15px;
 }
 
 
+.sectionthree {
+  background-color: #f9e42e;
+  height: 150px;
+  width: 960px;
+  margin-top: 75px;
+  padding-top: 40px;
+}
+
+section .button {
+  background-color: #033048;
+  height: 70px;
+  width: 350px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.button a {
+  color: white;
+  font-size: 24px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.button a:hover {
+  color: #f9e42e;
+  font-weight: 800;
+}
+
+footer {
+  background-color: #121212;
+  width: 960px;
+  height: 380px;
+  padding-top: 60px;
+}
+
+
+h5 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9e42e;
+  text-align: center;
+}
+
+footer nav {
+  color: white;
+  margin-left: 380px;
+  font-size: 5px;
+  padding-top: 75px;
+}
+
+nav img {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+footer p {
+  color: white;
+  margin-left: 375px;
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 75px;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
