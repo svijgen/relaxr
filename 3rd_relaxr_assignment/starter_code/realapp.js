@@ -1,6 +1,9 @@
 $(document).ready(function() {
 	console.log("Ready!");
 
+$("a").click(function(event){
+    event.preventDefault();
+});
 	
 $(".learnmore").click(learnMore);
 	function learnMore() {
@@ -35,11 +38,6 @@ $(".readless2").click(readLess2);
 	$(".readless2").slideUp(400);
 	$(".readmore2").show();
 }
-
-
-
-
-
 
 
 });
