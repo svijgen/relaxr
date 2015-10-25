@@ -5,6 +5,7 @@ $(document).ready(function() {
 $(".learnmore").click(learnMore);
 	function learnMore() {
 	$("#learnmoretext").slideDown(400);
+	$(".learnmore").hide();
 } 
 
 $(".readmore").click(readMore);
